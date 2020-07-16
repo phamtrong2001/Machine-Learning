@@ -40,3 +40,9 @@ plt.axis([140, 190, 45, 75])
 plt.xlabel('height (cm)')
 plt.ylabel('weigth (kg)')
 plt.show()
+
+#from sklearn import datasets, linear_model
+#regr = linear_model.LinearRegression(fit_intercept = False)
+#regr.fit(Xbar, y)
+#print("Solution found by scikit_learn : ", regr.coef_)
+#print("Solution found by (5): ", w.T)
